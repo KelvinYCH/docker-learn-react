@@ -10,7 +10,7 @@ before_install:
 script:
   - docker run -e CI=true kelvin918/docker-learn-react npm run test
 
-#deploy:
+deploy:
 #  provider: elasticbeanstalk
 #  region: "ap-east-1"
 #  app: "docker-learn-react"
